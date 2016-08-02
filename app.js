@@ -21,3 +21,12 @@ food.sort();
 for(i=0; i < food.length; i++) {
   document.write(food[i] + "<br>");
 }
+
+/****************************************************
+*                Associative Arrays                 *
+****************************************************/
+var bucky = new Array();
+bucky["color"] = "blue";
+bucky["food"] = "hot pockets";
+
+document.write("Bucky's favorite food is " + bucky["food"]);
